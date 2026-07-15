@@ -1,4 +1,5 @@
 import hrLogo from "./assets/logo-horizontal.png";
+import aboutImage from "./assets/hrinboxabouttrial.webp";
 import "./App.css";
 
 import { useState } from "react";
@@ -352,7 +353,7 @@ To Build <span className="text-yellow-500">Better HR</span>
         <div className="absolute left-0 bottom-0 w-[400px] h-[400px] bg-yellow-100 rounded-full blur-3xl opacity-20"></div>
         <div>
           <img
-            src="src/assets/hrinboxabouttrial.webp"
+            src={aboutImage}
             alt="HR Team"
             className="rounded-[40px] shadow-[0_25px_80px_rgba(0,0,0,0.12)] object-cover h-full hover:scale-[1.04] hover:rotate-1 transition-all duration-700"
           />
