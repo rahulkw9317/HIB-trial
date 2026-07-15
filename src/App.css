@@ -199,3 +199,13 @@
   width: max-content;
   animation: marquee 25s linear infinite;
 }
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+html {
+  scroll-behavior: smooth;
+}

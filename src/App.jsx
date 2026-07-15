@@ -106,9 +106,9 @@ export default function HRinBoxLandingPage() {
 
       {/* Hero Section */}
       <section className="px-6 sm:px-8 lg:px-20 py-10 sm:py-14 lg:py-28 grid lg:grid-cols-2 gap-10 lg:gap-14 items-center bg-gradient-to-br from-white via-yellow-50 to-white relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-yellow-100 rounded-full blur-3xl opacity-40"></div>
+        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-yellow-100 rounded-full blur-3xl opacity-40 pointer-events-none"></div>
 
-<div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-yellow-200 rounded-full blur-3xl opacity-30"></div>
+<div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-yellow-200 rounded-full blur-3xl opacity-30 pointer-events-none"></div>
         <div>
           <p className="uppercase tracking-[4px] text-yellow-500 font-semibold mb-5 text-sm">
             READY-TO-USE HR RESOURCES
@@ -131,16 +131,17 @@ To Build <span className="text-yellow-500">Better HR</span>
               className="inline-flex items-center justify-center bg-black text-white hover:bg-yellow-500 hover:text-black transition-all duration-300 px-8 py-4 rounded-2xl font-semibold"
             >
               Explore Resources
-              </a>
+            </a>
 
             <a
-              href="https://wa.me/917776028592?text=Hi%20HRinBox,%0A%0AI'd%20like%20to%20know%20more%20about%20your%20HR%20resources.%0A%0ABusiness%20Name:%0AIndustry:%0ANumber%20of%20Employees:%0A%0APlease%20guide%20me."
+              href="https://wa.me/917776028592?text=Hi%20HRinBox,%0A%0AI%27d%20like%20to%20know%20more%20about%20your%20HR%20resources.%0A%0ABusiness%20Name:%0AIndustry:%0ANumber%20of%20Employees:%0A%0ANumber%20of%20Employees:%0A%0APlease%20guide%20me."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center border-2 border-black hover:border-yellow-500 hover:bg-yellow-400 hover:text-black transition-all duration-300 px-8 py-4 rounded-2xl font-semibold"
             >
               Contact on WhatsApp
             </a>
+
           </div>
           <div className="grid grid-cols-3 gap-4 mt-12 text-center">
 
